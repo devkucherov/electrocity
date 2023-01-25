@@ -202,6 +202,9 @@ body {
   // bottom
   &__bottom {
     padding-top: 20px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
   &__catalog {
     display: grid;

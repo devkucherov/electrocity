@@ -283,6 +283,9 @@ body {
 }
 .header__bottom {
   padding-top: 20px;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .header__catalog {
   display: grid;
